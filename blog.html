@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <header>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog Page</title>
     <link rel="stylesheet" type="text/css" href="./Assets/css/blog.css">
-  </header>
+  </head>
   <body>
-	<script src="blog.js"></script>
-    <h1 class="main-title" id="main-title">What's on your mind?</h1>
-        <form class="blog-form" id="blog-form">
-        <link rel="stylesheet" type="text/css" href="./Assets/css/form.css">
-        <div class="container" id="container">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+    <header>
+      <h1 class="main-title" id="main-title">Blog Posts</h1>
+    </header>
 
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title" required>
-        
-            <label for="content">Content:</label>
-            <textarea id="content" name="content" rows="4" required></textarea>
-        
-            <button type="submit">Submit</button>
-        </div>
-        </form>
+    <main>
+      <div class="blog-posts" id="blog-posts">
+        <!-- Blog posts will be dynamically added here -->
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Hashem's Community Programming Blog</p>
+    </footer>
+	  <script src="blog.js"></script>
    </body>
 </html>

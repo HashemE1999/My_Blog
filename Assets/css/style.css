@@ -8,10 +8,10 @@ body {
     background-color: orange;
 }
 
-.main-title {
+.primary-title {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 40px;
     color: yellow;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,18 @@ body {
     border: 0.2em solid maroon;
     border-radius: 100%;
     margin-top: 100px;
-    padding: 200px;
+    padding: 50px;
+}
+
+.secondary-title {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 @media (max-width: 690px) {
