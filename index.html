@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css" />
     <title>Personal Blog</title>
   </head>
   <body>
-	<script src="logic.js"></script>
-    <h1 class="primary-title" id="primary-title">Hashem's Community Programming Blog</h1>
-      <h2 class="secondary-title" id="secondary-title">What's on your mind?</h2>
-        <form class="blog-form" id="blog-form">
-        <link rel="stylesheet" type="text/css" href="./Assets/css/form.css">
-          <div class="container" id="container">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+    <h1 class="primary-title" id="primary-title">
+      Hashem's Community Programming Blog
+    </h1>
+    <h2 class="secondary-title" id="secondary-title">What's on your mind?</h2>
+    <form class="blog-form" id="blog-form">
+      <link rel="stylesheet" type="text/css" href="./Assets/css/form.css" />
+      <div class="container" id="container">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
 
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title" required>
-      
-            <label for="content">Content:</label>
-            <textarea id="content" name="content" rows="4" required></textarea>
-      
-            <button type="submit">Submit</button>
-          </div>
-        </form>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required />
+
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="./Assets/js/logic.js"></script>
+    <script src="./Assets/js/form.js"></script>
   </body>
 </html>
