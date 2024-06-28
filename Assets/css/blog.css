@@ -4,19 +4,25 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: orange;
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+
 }
 
 .main-title {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
-    color: yellow;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.2em solid maroon;
+    border: 0.2em solid grey;
     border-radius: 100%;
     margin-top: 100px;
     padding: 50px;
@@ -26,7 +32,6 @@ footer {
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: yellow;
     flex-direction: column;
     justify-content: center;
     align-items: center;

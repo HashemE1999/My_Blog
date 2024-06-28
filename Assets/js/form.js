@@ -30,3 +30,10 @@ form.addEventListener("submit", function (event) {
   blogposts.push(blogpost)
   localStorage.setItem("blogposts", JSON.stringify(blogposts));
 });
+
+// const redirectUrl to apply to URL for blog post page
+const redirectUrl = "http://127.0.0.1:5500/blog.html"
+// function to redirect to redirectUrl upon clicking the submit button on the homepage
+document.getElementById('submit').addEventListener('click', function () {
+    window.location.href = redirectUrl;
+});

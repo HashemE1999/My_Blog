@@ -4,7 +4,24 @@
     box-sizing: border-box;
 }
 
+.light-mode {
+    background-color: white;
+    color: black;
+}
 
+.dark-mode {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 690px) {
     .btn {
@@ -12,15 +29,6 @@
         margin: 16px 0px 0px 0px;
         padding: 10px 15px;
     }
-}
-
-.container {
-    color: maroon;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 @media (max-width: 500px) {
